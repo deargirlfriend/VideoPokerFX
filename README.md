@@ -1,3 +1,3 @@
 # Taxi Booking Map
 
-## Google 
+## Google Map
