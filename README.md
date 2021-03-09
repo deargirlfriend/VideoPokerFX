@@ -2,4 +2,4 @@
 
 ## Google Maps
 
-A web pag
+A web page 
