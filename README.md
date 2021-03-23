@@ -2,4 +2,4 @@
 
 ## Google Maps
 
-A web page for booking a taxi with some feat
+A web page for booking a taxi with some feature
