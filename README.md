@@ -13,4 +13,4 @@ Replace your **API** with `YOUR_API_KEY`.
 
 ### Useful References
 
-- Get API: htt
+- Get API: https:/
