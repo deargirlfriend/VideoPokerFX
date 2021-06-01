@@ -13,4 +13,4 @@ Replace your **API** with `YOUR_API_KEY`.
 
 ### Useful References
 
-- Get API: https://developers.google.com/maps/doc
+- Get API: https://developers.google.com/maps/docu
