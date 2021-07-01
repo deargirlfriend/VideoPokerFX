@@ -13,4 +13,5 @@ Replace your **API** with `YOUR_API_KEY`.
 
 ### Useful References
 
-- Get API: https://developers.google.com/maps/documentation/javascript/get-api-ke
+- Get API: https://developers.google.com/maps/documentation/javascript/get-api-key
+- S
