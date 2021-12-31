@@ -20,4 +20,4 @@ Replace your **API** with `YOUR_API_KEY`.
 
 ## Similar Project
 
-- https://github.com/BaseMax/
+- https://github.com/BaseMax/Ta
