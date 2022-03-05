@@ -24,4 +24,4 @@ Replace your **API** with `YOUR_API_KEY`.
 
 ## Max Base
 
-My nickname i
+My nickname is M
