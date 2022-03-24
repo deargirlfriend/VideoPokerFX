@@ -24,4 +24,4 @@ Replace your **API** with `YOUR_API_KEY`.
 
 ## Max Base
 
-My nickname is Max, Programming langua
+My nickname is Max, Programming language d
