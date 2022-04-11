@@ -24,4 +24,4 @@ Replace your **API** with `YOUR_API_KEY`.
 
 ## Max Base
 
-My nickname is Max, Programming language developer, Full-stack programmer. I love com
+My nickname is Max, Programming language developer, Full-stack programmer. I love comput
