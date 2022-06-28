@@ -80,3 +80,7 @@
 		var map;
 		var distanceDirection;
 		var distanceDisplay;
+		function string2Location(input, index) {
+			var searchBox = new google.maps.places.SearchBox(input);
+			// map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+			map.addListener('bounds_changed', function() {
