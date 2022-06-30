@@ -88,3 +88,8 @@
 			});
 			distanceDirection = new google.maps.DirectionsService();
 			distanceDisplay = new google.maps.DirectionsRenderer();
+			searchBox.addListener('places_changed', function() {
+				var places = searchBox.getPlaces();
+				if(places.length == 0) {
+					return;
+				}
