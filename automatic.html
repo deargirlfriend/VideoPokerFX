@@ -93,3 +93,6 @@
 				if(places.length == 0) {
 					return;
 				}
+				markers[index].setMap(null);
+				var bounds = new google.maps.LatLngBounds();
+				places.forEach(function(place) {
