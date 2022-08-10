@@ -180,3 +180,6 @@
 			// console.log(locations[1].lat() + ", " + locations[1].lng());
 			var start = new google.maps.LatLng(locations[0].lat(), locations[0].lng());
 			var end = new google.maps.LatLng(locations[1].lat(), locations[1].lng());
+			// console.log(start + ", " + end);
+			if(isNaN(locations[0].lat()) === true || isNaN(locations[0].lng()) === true || isNaN(locations[1].lat()) === true || isNaN(locations[1].lng()) === true) {
+				// console.log("End!");
