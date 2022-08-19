@@ -189,3 +189,5 @@
 			var value_price=document.querySelector("#value-price");
 			var distance=calcDistance(start, end);
 			value_distance.innerHTML=distance + " KM";
+			value_price.innerHTML=(distance * 5) + " USD"; // We can use .toFixed()...
+			var bounds = new google.maps.LatLngBounds();
