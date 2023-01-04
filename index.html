@@ -159,3 +159,6 @@
 			var value_price=document.querySelector("#value-price");
 			var start = new google.maps.LatLng(locations[0].lat(), locations[0].lng());
 			var end = new google.maps.LatLng(locations[1].lat(), locations[1].lng());
+			var distance=calcDistance(start, end);
+			value_distance.innerHTML=distance;
+			value_price.innerHTML=(distance * 5) + " USD"; // We can use .toFixed()...
