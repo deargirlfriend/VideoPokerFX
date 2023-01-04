@@ -162,3 +162,6 @@
 			var distance=calcDistance(start, end);
 			value_distance.innerHTML=distance;
 			value_price.innerHTML=(distance * 5) + " USD"; // We can use .toFixed()...
+			var bounds = new google.maps.LatLngBounds();
+			bounds.extend(start);
+			bounds.extend(end);
