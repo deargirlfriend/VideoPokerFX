@@ -170,3 +170,6 @@
 				travelMode: google.maps.TravelMode.DRIVING,
 				origin: start,
 				destination: end,
+			};
+			distanceDirection.route(request, function(response, status) {
+				if(status == google.maps.DirectionsStatus.OK) {
