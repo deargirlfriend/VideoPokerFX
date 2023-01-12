@@ -173,3 +173,5 @@
 			};
 			distanceDirection.route(request, function(response, status) {
 				if(status == google.maps.DirectionsStatus.OK) {
+					distanceDisplay.setDirections(response);
+					distanceDisplay.setMap(map);
