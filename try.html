@@ -91,3 +91,6 @@
 			administrative_area_level_1: 'short_name',
 			country: 'long_name',
 			postal_code: 'short_name'
+		};
+		function initAutocomplete() {
+			autocomplete = new google.maps.places.Autocomplete(document.getElementById('autocomplete'), {types: ['geocode']});
