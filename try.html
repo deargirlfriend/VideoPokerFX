@@ -95,3 +95,8 @@
 		function initAutocomplete() {
 			autocomplete = new google.maps.places.Autocomplete(document.getElementById('autocomplete'), {types: ['geocode']});
 			autocomplete.setFields(['address_component']);
+			autocomplete.addListener('place_changed', fillInAddress);
+		}
+		function fillInAddress() {
+			var place = autocomplete.getPlace();
+			// var l = place.geometry.viewport.getSouthWest();
