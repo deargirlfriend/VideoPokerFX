@@ -109,3 +109,6 @@
 			for(var component in componentForm) {
 				document.getElementById(component).value = '';
 				document.getElementById(component).disabled = false;
+			}
+			for(var i = 0; i < place.address_components.length; i++) {
+				var addressType = place.address_components[i].types[0];
