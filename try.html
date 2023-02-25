@@ -127,3 +127,8 @@
 			// 	mapTypeControl: true,
 			// };
 			// var map = new google.maps.Map(document.getElementById("map"),myOptions);
+		}
+		function geolocate() {
+			if(navigator.geolocation) {
+				navigator.geolocation.getCurrentPosition(function(position) {
+					var geolocation = {
