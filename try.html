@@ -132,3 +132,6 @@
 			if(navigator.geolocation) {
 				navigator.geolocation.getCurrentPosition(function(position) {
 					var geolocation = {
+						lat: position.coords.latitude,
+						lng: position.coords.longitude
+					};
