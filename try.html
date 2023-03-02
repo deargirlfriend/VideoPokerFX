@@ -169,3 +169,6 @@ function calcDistance(p1, p2) {
 	return(google.maps.geometry.spherical.computeDistanceBetween(p1, p2) / 1000).toFixed(2);
 }
 function convertAddress() {
+	var address = document.getElementById("address").value;
+	var geocoder = new google.maps.Geocoder();
+	geocoder.geocode( { 'address': address}, function(results, status) {
