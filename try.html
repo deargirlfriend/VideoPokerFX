@@ -172,3 +172,7 @@ function convertAddress() {
 	var address = document.getElementById("address").value;
 	var geocoder = new google.maps.Geocoder();
 	geocoder.geocode( { 'address': address}, function(results, status) {
+		if(status == google.maps.GeocoderStatus.OK) {
+			document.getElementById('latlong').value =(results[0].geometry.location);
+		}
+		else {
